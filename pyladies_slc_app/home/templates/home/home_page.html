@@ -3,9 +3,15 @@
 {% load wagtailcore_tags %}
 {% block body_class %}template-homepage{% endblock %}
 
+
+
+
 {% block content %}
 
-    {{page.title|richtext}}
-    {{page.body|richtext}}
+    
+
+    <h1>{{page.title|richtext}}</h1>
+    <p>{{page.body|richtext}}<p>
+
     
 {% endblock %}

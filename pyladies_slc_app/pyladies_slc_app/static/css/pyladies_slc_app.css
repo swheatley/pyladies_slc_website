@@ -1,0 +1,22 @@
+
+
+.navy{
+    background-color: rgb(45, 1, 2)!important;
+    font-family: bitter;
+}
+
+.nav-link{
+    color: rgb(238, 28, 65) !important;
+    text-shadow: 0px 1px white;
+    font-size: 2em;
+}
+h1 > .rich-text{
+    font-family:  Glegoo, serif !important;
+    font-size: 29px;
+    line-height: 29px;
+       display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-top: 10%;
+}
